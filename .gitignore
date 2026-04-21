@@ -1,0 +1,7 @@
+node_modules/
+scratch/
+temp/
+.claude/
+mcp_config_generated.json
+*.log
+.DS_Store
