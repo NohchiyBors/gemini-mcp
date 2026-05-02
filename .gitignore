@@ -4,4 +4,5 @@ temp/
 .claude/
 mcp_config_generated.json
 *.log
+gemini-usage*.json
 .DS_Store

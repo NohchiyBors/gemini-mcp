@@ -24,7 +24,7 @@ This is a single-file MCP server (`index.js`) that wraps the **Gemini CLI** (`ge
 
 **Windows note:** On Windows, `shell: true` is used with `gemini.cmd`; double-quotes in prompts must be escaped manually to avoid arg-passing bugs.
 
-**Logging:** All requests and errors are appended to `gemini-mcp.log` in the current working directory (not stdout, to avoid polluting the MCP stdio channel).
+**Logging:** All requests and errors are appended to `gemini-mcp.<hostname>.log` in the project root (not stdout, to avoid polluting the MCP stdio channel). Usage counters are written to `gemini-usage.<hostname>.json`.
 
 **Tool categories implemented:**
 - General tasks: `gemini_task`, `gemini_chat`, `gemini_analyze`
@@ -53,7 +53,7 @@ If this fails, the Gemini CLI is not in PATH — all `mcp__gemini-mcp__*` tools 
 **All 21 tools require the local Gemini CLI.** There is no fallback to a remote API. A tool returning `Error: Failed to start gemini` or timing out almost always means the CLI is missing or not in PATH, not a bug in this server.
 
 **Diagnosing failures:**
-- Check `gemini-mcp.log` in the working directory for per-request error details.
+- Check `gemini-mcp.<hostname>.log` in the project root for per-request error details.
 - `gemini_summarize_url` and network-dependent tools can time out if outbound HTTP is blocked — this is an environment/firewall issue, not a server bug.
 - On Windows the server uses `gemini.cmd`; on macOS/Linux it uses `gemini`. If running in a Linux container or WSL without the CLI installed, tools will not work even if they work on the host Windows machine.
 
