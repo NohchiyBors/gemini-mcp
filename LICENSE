@@ -1,25 +1,27 @@
-Non-Commercial License
-Version 1.0
+Personal Use Only License
 
-Copyright (c) 2026 Project Contributors
+Copyright (c) 2026 Hosting Service Provider
 
-Permission is granted to any person obtaining a copy of this software and
-associated documentation files (the "Software") to use, copy, modify, and
-distribute the Software for non-commercial purposes only, subject to the
-following conditions:
+Permission is granted to any individual to use, copy, and modify this
+project for personal, non-commercial use only.
 
-1. The above copyright notice and this permission notice shall be included in
-   all copies or substantial portions of the Software.
-2. Commercial use of the Software is prohibited without prior written
-   permission from the copyright holder(s).
-3. "Commercial use" includes, without limitation, selling, licensing, hosting
-   as a paid service, or using the Software in activities primarily intended
-   for commercial advantage or monetary compensation.
+You may:
+- use the project for your own private workflows;
+- copy the project for personal backup or personal devices;
+- modify the project for personal use.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You may not, without prior written permission from the copyright holder:
+- use the project for commercial, business, client, employer, or revenue-generating work;
+- sell, sublicense, rent, host, or provide the project as a paid or commercial service;
+- redistribute modified or unmodified copies publicly;
+- include the project in a commercial product, service, training, package, or template collection;
+- remove or alter this license notice.
+
+This project is provided "as is", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, and non-infringement. In no event shall the
+copyright holder be liable for any claim, damages, or other liability arising
+from the project or its use.
+
+For permission beyond personal non-commercial use, contact the copyright
+holder.
